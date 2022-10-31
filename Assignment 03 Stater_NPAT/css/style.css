@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1, 5pt;
+}
+/* common */
+/* #job-info, */
+#certificate,
+#project {
+  padding: 50px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+/* Banner */
+#banner {
+  position: relative;
+  height: 50%;
+  /* text-align: center; */
+}
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+/* nav bar */
+/* #nav-bar {
+  text-align: center;
+} */
+.container-nav {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+#nav-bar a {
+  padding: 20px;
+  border-left: 1px solid #f1f3f5;
+  border-right: 1px solid #f1f3f5;
+  text-decoration: none;
+  color: #070707;
+}
+#nav-bar a:hover {
+  background-color: rgb(0, 0, 0);
+  color: #f7f7f7;
+}
+/* #nav-bar a:visited {
+  color: #9c9fa0;
+} */
+#nav-bar div {
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.5pt;
+}
+.avatar {
+  position: absolute;
+  /* left: 0%; */
+  top: 50%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: #f7f7f7 solid 8px;
+}
+/* Mục tiêu & Thông tin*/
+/* .container-about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
+.hide {
+  display: none;
+}
+#target,
+#personal-info {
+  padding: 50px 80px;
+}
+#target {
+  background-color: rgb(245, 241, 237);
+}
+#personal-info {
+  background-color: #f0f0f0;
+}
+#personal-info ul {
+  list-style: none;
+  padding: 0;
+}
+.info-icon {
+  margin-top: 30px;
+}
+/* Job info */
+.container-item {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  /* border: #76797a solid 1px; */
+  padding: 30px;
+}
+.container-item i {
+  font-size: 2rem;
+  justify-self: center;
+}
+.container-item-row2 {
+  padding-top: 50px;
+  grid-column: 1/-1;
+}
+/* Ngôn ngữ, kỹ năng */
+.lv-blue {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.lv-gray {
+  background: #76797a;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+/* Sở thích */
+.hobby-icon {
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column: 1/-1;
+  gap: 10px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.ic-megaphone::before,
+.ic-strategy::before,
+.ic-hotairballoon::before,
+.ic-basket::before {
+  content: "";
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: #199cdb solid 1px;
+  border-radius: 50%;
+  color: #199cdb;
+  align-items: center;
+}
+/* Chứng chỉ */
+.certificate-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  row-gap: 20px;
+}
+/* Dự án */
+.project-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+}
+.project-content img {
+  width: 100%;
+  height: auto;
+}
+.pro-con {
+  border: #d6c08d solid 1px;
+}
+.pro-con:hover {
+  background-color: #e8e2d2;
+}
+.pro-title,
+.pro-icon {
+  padding: 10px;
+  border-top: #d6c08d solid 1px;
+}
+td {
+  border-top: #d6c08d solid 1px;
+  padding: 10px;
+}
+/* Footer */
+#footer {
+  padding: 20px 50px;
+  text-align: center;
+}
+#footer a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+#footer a:hover {
+  color: rgb(144, 95, 95);
+}
